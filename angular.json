@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bases",
+            "outputPath": "dist/porfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -106,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3d00eb9a-506f-423e-9eeb-c5b62b884061"
   }
 }
